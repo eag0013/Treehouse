@@ -2,6 +2,9 @@
 //Solution: Add interactivity so user events trigger results on the page.
 
 //Add new tasks
+var addTask = function() {
+
+}
   //When button is pressed
   //Create new list item with the text from #new-task:
     //input (checkbox)
@@ -12,6 +15,9 @@
     //modify and append elements
 
 //Edit existing tasks
+var editTask = function() {
+
+}
   //When the edit button is pressed
   //if the class of the parent is .editMode
     //Switch from .editMode
@@ -23,13 +29,22 @@
   //Toggle .editMode on the parent
 
 //Delete existing tasks
+var deleteTask = function() {
+
+}
   //When the delete button is pressed
     //Remove the parent list item from the ul
 
 //Mark tasks as completed
+var taskCompleted = function() {
+
+}
   //When the checkbox is checked
     //Append the task list item to the #completed-tasks
 
 //Mark tasks as incomplete
+var taskIncomplete = function() {
+  
+}
   //When the checkbox is unchecked
     //Append the task list item to the #incomplete-tasks
